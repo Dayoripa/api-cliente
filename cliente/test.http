@@ -1,18 +1,23 @@
-Get http://localhost:3000/api/clientes
+Get http://localhost:4000/api/clientes
 
 ###
 POST http://localhost:4000/api/clientes
 Content-Type: application/json
 
 {
-    "nombre": "Salome",
-    "correo": "salo@hotmail.com"
+    "nombre": " Maria",
+    "correo": "maria@gmail.com"
 }
 
 ###
 
-PUT http://localhost:3000/api/clientes/45
+PUT http://localhost:4000/api/clientes/61513af394bf81dbd27d7e28
+Content-Type: application/json
+
+{
+    "correo": "leidy@gmail.com"
+}
 
 ###
 
-DELETE http://localhost:3000/api/clientes/45
+DELETE http://localhost:4000/api/clientes/615092f51d71ad89c367907c
